@@ -267,7 +267,8 @@ p.lang span {
 	margin-right: 22px;
 }
 div.logo {
-    margin-left: -80px;
+    /* margin-left: -80px; */
+    margin-left: -11px;
     margin-bottom: 4px;
 }
 a.logo {
@@ -298,7 +299,8 @@ p.logo{
     font-size: 23pt;
     line-height: 27pt;
     color: #8d8d8d;
-        margin-top: .5em;
+    margin-top: .5em;
+    margin-left: 56pt;
 
 }
 #contentwrap p.tagline.right {
