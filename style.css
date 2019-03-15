@@ -467,6 +467,13 @@ div.cover {
     margin-right: 1em;
     width: 120px;
 }
+div.empty-cover {
+    float: left;
+    margin-right: 1em;
+    width: 120px;
+    height: 160px;
+    background: #bbb
+}
 .imgsep {
     display: inline-block;
     width: 34px;
