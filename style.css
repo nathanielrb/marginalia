@@ -295,10 +295,12 @@ p.logo{
 	margin: 0;
 }
 #contentwrap p.tagline {
-    font-family: petrona;
-    font-size: 23pt;
+    font-family: asap, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 1.2pt;
     line-height: 27pt;
-    color: #8d8d8d;
+    color: #222; 
     margin-top: .5em;
     margin-left: 56pt;
 
