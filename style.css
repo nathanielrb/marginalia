@@ -171,6 +171,9 @@ p {
 #content p.book {
     margin:  0em 0 0.5em 0;
 }
+p.book a, p.book a:visited, p.book a:hover {
+    color: black;
+} 
 #content p.critic {
     margin:  0em 0 1em 0;
 
