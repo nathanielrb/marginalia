@@ -166,7 +166,7 @@ p {
 }
 #content div.book {
     float: right;
-    width: 300px;
+    width: 600px;
 }
 #content p.book {
     margin:  0em 0 0.5em 0;
@@ -497,7 +497,7 @@ background: #ab0024;
     margin-left: 56pt;
 }
 #front-content div.book {
-    width: 450px;
+    width: 600px;
     display: inline-block;
     margin-bottom: 2em;
 }
