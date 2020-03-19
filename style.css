@@ -167,7 +167,7 @@ p {
 }
 #content div.book {
     float: right;
-    width: 600px;
+    width: 800px;
 }
 div.book b {
     font-size: 1.3em;
@@ -504,15 +504,27 @@ background: #ab0024;
     margin-left: 56pt;
 }
 #front-content div.book {
-    width: 600px;
+    width: 800px;
     display: inline-block;
     margin-bottom: 4em;
 }
 #front-content div.review {
-    width: 600px;
+    width: 800px;
     display: inline-block;
     margin-bottom: 3em;
     padding-left: 190px;
+}
+div.journal {
+    width: 800px;
+    display: inline-block;
+    margin-bottom: 3em;
+
+}
+div.event {
+    width: 800px;
+    display: inline-block;
+    margin-bottom: 2em;
+
 }
 p.no-cover {
     margin-left: 136px;
@@ -529,6 +541,14 @@ p.no-cover {
     width: 330px;
 
  }
+.event-spacer {
+    margin: 0pt 0 4em -7em;
+    width: 330px;
+ }
 .label, .label a, .label a:visited, .label a:active, .label a:hover {
     color: #222
+}
+.contact {
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
