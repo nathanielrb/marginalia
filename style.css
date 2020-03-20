@@ -526,6 +526,9 @@ div.event {
     margin-bottom: 2em;
 
 }
+.event a {
+    text-decoration: underline;
+}
 p.no-cover {
     margin-left: 136px;
 }
