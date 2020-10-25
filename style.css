@@ -24,7 +24,7 @@ a:active {
 }
 
  #contentwrap {
-	width: 600px; 
+	min-width: 800px; 
 	margin: 90px 0 40px 220px; 
 
 }
@@ -246,6 +246,20 @@ p.last span {
 }
 #content p.menu {
     font-size: 8.5pt;
+}
+
+p.menu {
+    margin: 4em 0 4em 56pt;
+}
+
+div.quip {
+    margin-bottom: 4em;
+}
+div.quip a {
+    color: black;
+}
+p.menu a {
+ margin-right: 2em
 }
 #content p.menu .langue {
     display: inline-block;
@@ -540,7 +554,7 @@ p.no-cover {
     font-size: 18pt;
     /* border-bottom: 1px solid #999; */
     /* margin: 1em 0 1em -100px; */
-    margin: 20pt 0 4em -7em;
+    margin: 1em 0 4em -7em;
     border-bottom: 1px solid;
     width: 330px;
 
