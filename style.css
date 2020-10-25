@@ -176,7 +176,8 @@ div.book b {
 }
  p.book {
     margin:  0em 0 0.5em 0;
-    margin-left: 193px
+    /* margin-left: 193px */
+    width: 600px;
 }
 p.book a, p.book a:visited, p.book a:hover {
     color: black;
@@ -255,6 +256,7 @@ p.menu {
 div.quip {
     margin-bottom: 4em;
     display: block;
+    max-width: 800px;
 }
 div.quip a {
     color: black;
@@ -489,11 +491,17 @@ color: #999999;
 img.cover {
     width: 160px;
 }
+div.front-cover {
+    float: left;
+    margin-right: 2em;
+    width: 160px;
+}
 div.cover {
     float: left;
     margin-right: 1em;
+    margin-left: -200px;
     width: 160px;
-    margin-right: 2em;
+    margin-right: 40px;
 }
 div.empty-cover {
     float: left;
