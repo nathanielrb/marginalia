@@ -45,6 +45,7 @@ a:active {
 	padding: 20pt 56pt 20pt 56pt;
 	position:relative;
 	margin-top: 6px;
+        width: 700px;
 }
 
 
@@ -176,7 +177,7 @@ div.book b {
 }
  p.book {
     margin:  0em 0 0.5em 0;
-    margin-left: 193px;
+    margin-left: 200px;
     width: 600px;
 }
 p.book a, p.book a:visited, p.book a:hover {
@@ -391,7 +392,10 @@ wdith: 460px;
 	overflow: hidden;
 }
 .link {
-	text-align: right !important;
+    text-align: right !important;
+}
+.link a {
+    color: black;
 }
 .date {
 	opacity: .4;
@@ -491,6 +495,15 @@ color: #999999;
 img.cover {
     width: 160px;
 }
+.single-book-cover-right {
+    float: right;
+}
+.single-book-cover {
+    width: 40px;
+    float: left;
+    margin-left: -12px;
+    margin-right: 4em;
+}
 div.front-cover {
     float: left;
     margin-right: 2em;
@@ -569,6 +582,11 @@ p.no-cover {
     width: 330px;
 
  }
+.event-header {
+    margin-top: 2em;
+    color: #222; /*ab0024;*/
+}
+
 .event-spacer {
     margin: 3em 0 3em -7em;
     width: 330px;
